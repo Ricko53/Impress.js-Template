@@ -417,7 +417,9 @@ header{padding: 100px 0;}
 .boxed-turquoise, a.boxed-turquoise{background: #3bbec0;}
 .boxed-black, a.boxed-black{background: #333;}
 .boxed-brown, a.boxed-brown{background: #a48b60;}
-
+.boxed-bg, a.boxed-bg{background-image: url('images/background/bgl.jpg')}
+.boxed-ig, a.boxed-ig{background-image: url('images/background/lifestyle.jpg')}
+.boxed-bk, a.boxed-bk{background-image: url('images/background/black.png')}
 /*-----------------------------------*/
 /* Table Pricing */
 /*-----------------------------------*/

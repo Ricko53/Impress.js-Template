@@ -415,10 +415,13 @@ header{padding: 100px 0;}
 .boxed-turquoise, a.boxed-turquoise{background: #3bbec0;}
 .boxed-brown, a.boxed-brown{background: #a48b60;}
 .boxed-bg, a.boxed-bg{background-image: url('images/background/lifestyle.jpg')}
-.boxed-black, a.boxed-black{background-image: url('images/background/black.png')}
+/*.boxed-black, a.boxed-black{background-image: url('images/background/black.png')}
 .boxed-yellow, a.boxed-yellow{background-image: url('images/background/yellow.jpg')}
 .boxed-red, a.boxed-red{background-image: url('images/background/red.jpg')}
-.boxed-blue, a.boxed-blue{background-image: url('images/background/blue.jpg')}
+.boxed-blue, a.boxed-blue{background-image: url('images/background/blue.jpg')}*/
+.boxed-yellow, a.boxed-yellow{background: #e49307;}
+.boxed-red, a.boxed-red{background: #981b48;}
+.boxed-blue, a.boxed-blue{background: #11a9cc;}
 .boxed-bg2, a.boxed-bg2{background-image: url('images/background/window.jpg')}
 
 /*-----------------------------------*/

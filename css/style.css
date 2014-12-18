@@ -51,8 +51,7 @@ CSS STRUCTURE:
 /*-----------------------------------*/
 /* Fonts */
 /*-----------------------------------*/
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
+@import url(http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
 
 /*-----------------------------------*/
 /* Global Reset */
@@ -93,15 +92,6 @@ body {
     color:#666;
     -webkit-font-smoothing: subpixel-antialiased;
 	position:relative;
-    /*background: rgb(0,157,158);*/
-    background: url(images/background/main.gif);
-    /*background: -moz-linear-gradient(top,  rgba(0,157,158,1) 0%, rgba(29,94,119,1) 20%, rgba(29,94,119,1) 80%, rgba(0,157,158,1) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,157,158,1)), color-stop(20%,rgba(29,94,119,1)), color-stop(80%,rgba(29,94,119,1)), color-stop(100%,rgba(0,157,158,1)));
-    background: -webkit-linear-gradient(top,  rgba(0,157,158,1) 0%,rgba(29,94,119,1) 20%,rgba(29,94,119,1) 80%,rgba(0,157,158,1) 100%);
-    background: -o-linear-gradient(top,  rgba(0,157,158,1) 0%,rgba(29,94,119,1) 20%,rgba(29,94,119,1) 80%,rgba(0,157,158,1) 100%);
-    background: -ms-linear-gradient(top,  rgba(0,157,158,1) 0%,rgba(29,94,119,1) 20%,rgba(29,94,119,1) 80%,rgba(0,157,158,1) 100%);
-    background: linear-gradient(to bottom,  rgba(0,157,158,1) 0%,rgba(29,94,119,1) 20%,rgba(29,94,119,1) 80%,rgba(0,157,158,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009d9e', endColorstr='#009d9e',GradientType=0 );*/
 }
 .body_wrap{
 	width: 100%;
@@ -260,7 +250,7 @@ p{
     text-shadow:none;
     background-color: #3bbec0;
     border: 0 none;
-    background-image: url(images/icons/button-icons.png);
+    background-image: url(../images/icons/button-icons.png);
     background-repeat: no-repeat;
     background-position: -300px -300px;
 }
@@ -290,7 +280,7 @@ p{
 .btn-yellow span, .btn-yellow input{background-color: #ebc85e;}
 .btn-turquoise span, .btn-turquoise input{background-color: #1d5f60;}
 .btn-black span, .btn-black input{background-color: #333;}
-.btn-brown span, .btn-brown input{background-color: #295D5F;}
+.btn-brown span, .btn-brown input{background-color: #67532F;}
 
 /*-----------------------------------*/
 /* Custom checkboxes, radios */
@@ -412,17 +402,21 @@ header{padding: 100px 0;}
 .boxed, a.boxed {position:relative; background: #fff; margin-bottom:30px; border-radius: 7px; box-shadow: 0px 1px 6px rgba(18, 64, 69, 1);}
 
 .boxed-green, a.boxed-green{background: #60cd9b;}
-.boxed-turquoise, a.boxed-turquoise{background: #3bbec0;}
+.boxed-turquoise, a.boxed-turquoise{background: #669CF5;}
 .boxed-brown, a.boxed-brown{background: #a48b60;}
-.boxed-bg, a.boxed-bg{background-image: url('images/background/lifestyle.jpg')}
-/*.boxed-black, a.boxed-black{background-image: url('images/background/black.png')}
-.boxed-yellow, a.boxed-yellow{background-image: url('images/background/yellow.jpg')}
-.boxed-red, a.boxed-red{background-image: url('images/background/red.jpg')}
-.boxed-blue, a.boxed-blue{background-image: url('images/background/blue.jpg')}*/
-.boxed-yellow, a.boxed-yellow{background: #e49307;}
-.boxed-red, a.boxed-red{background: #981b48;}
-.boxed-blue, a.boxed-blue{background: #11a9cc;}
-.boxed-bg2, a.boxed-bg2{background-image: url('images/background/window.jpg')}
+.boxed-bg, a.boxed-bg{background-image: url('../images/background/lifestyle.jpg')}
+.boxed-black, a.boxed-black{background-image: url('../images/background/black.png')}
+.boxed-yellow, a.boxed-yellow{background-image: url('../images/background/yellow.jpg')}
+.boxed-red, a.boxed-red{background-image: url('../images/background/red.jpg')}
+.boxed-cyanblue, a.boxed-cyanblue{background-image: url('../images/background/blue.jpg')}
+.boxed-blue, a.boxed-blue{background-image: url('../images/background/main2.png')}
+.boxed-bg2, a.boxed-bg2{background-image: url('../images/background/window.jpg')}
+.boxed-bg3, a.boxed-bg3{background-image: url('../images/background/contant.jpg')}
+
+.boxed-box1, a.boxed-box1{background-image: url('../images/background/box1.jpg')}
+.boxed-box2, a.boxed-box2{background-image: url('../images/background/box2.jpg')}
+.boxed-box3, a.boxed-box3{background-image: url('../images/background/box3.jpg')}
+
 
 /*-----------------------------------*/
 /* Table Pricing */
@@ -556,7 +550,7 @@ header{padding: 100px 0;}
     border: 2px solid #fff;
     border-radius: 50%;
     cursor: pointer;
-    background-image: url(images/pagination.png) !important;
+    background-image: url(../images/pagination.png) !important;
     background-repeat: no-repeat !important;
     background-color: transparent !important;
     background-position: 5px 5px !important;
@@ -792,7 +786,7 @@ input[type="password"]:focus{
     display: inline-block;
     width:9px;
     height:11px;
-    background: url(images/pagination.png) left top no-repeat;
+    background: url(../images/pagination.png) left top no-repeat;
 }
 .tf_pagination .page_next span {
     background-position:  right top;
@@ -962,7 +956,7 @@ input[type="password"]:focus{
     width: 236px;
     padding: 22px 20px 20px;
 }
-.menu-search-form{position: relative;}
+.menu-search-form{position: relative; height: 32px;}
 
 input.menu-search-field{
     border:0 none;
@@ -988,7 +982,7 @@ input.menu-search-submit{
     position: absolute;
     top: 0;
     right: 0;
-    background:url(images/icons/search.png) center center no-repeat;
+    background:url(../images/icons/search.png) center center no-repeat;
 }
 
 /* Level 1+ */
@@ -1137,7 +1131,7 @@ input.menu-search-submit{
     width: 30px;
     height: 30px;
     margin: 0;
-    background: url(images/icons/menu-icons.png) no-repeat;
+    background: url(../images/icons/menu-icons.png) no-repeat;
 }
 .icon-menu-2{background-position: 0 -30px;}
 .icon-menu-3{background-position: 0 -60px;}
@@ -1210,9 +1204,16 @@ a.dropdown-toggle:after{
 .grid-box{
     float: left;
     width: 50%;
-    padding: 5px;
+   /* padding: 5px;*/
 }
-.grid-box-large{width: 100%;}
+
+.grid-box-min{
+    float: left;
+    width: 30%;
+    margin-right: 18px;
+}
+
+.grid-box-large{width: 100%; margin-bottom: 10px;}
 
 .grid-box a{
     display: block;
@@ -1222,18 +1223,25 @@ a.dropdown-toggle:after{
     color: #fff;
 }
 
+.grid-box-min a{
+    display: block;
+    margin: 0;
+    height: 200px;
+    font-size: 21px;
+    color: #fff;
+}
+
 .grid-box strong,
 .grid-box span{
     display: block;
 }
 .grid-box strong{text-align: center; margin-bottom: 23px;}
-.grid-box-large strong{text-align: left;}
 
 .icon-grid{
     width: 50px;
     height: 50px;
     margin: 0;
-    background: url(images/icons/grid-menu-icons.png) 0 0 no-repeat;
+    background: url(../images/icons/grid-menu-icons.png) 0 0 no-repeat;
 }
 .icon-grid-2{background-position: 0 -50px;}
 .icon-grid-3{background-position: 0 -100px;}
@@ -1263,7 +1271,7 @@ a.dropdown-toggle:after{
     width: 30px;
     height: 30px;
     margin: 0;
-    background: url(images/icons/menu-icons2.png) no-repeat;
+    background: url(../images/icons/menu-icons2.png) no-repeat;
 }
 .menu-vertical .icon-menu-2{background-position: 0 -30px;}
 .menu-vertical .icon-menu-3{background-position: 0 -60px;}
@@ -1522,7 +1530,7 @@ a.dropdown-toggle:after{
     overflow: hidden;
     text-indent: 200px;
     vertical-align: middle;
-    background: url(images/icons/social-icons2.png) 0 0 no-repeat;
+    background: url(../images/icons/social-icons2.png) 0 0 no-repeat;
 }
 .widget-social .social-facebook i{background-position: 0 0;}
 .widget-social .social-twitter i{background-position: 0 -46px;}
@@ -1547,7 +1555,7 @@ a.dropdown-toggle:after{
     float: left;
     width: 76px;
     height: 57px;
-    background: url(images/icons/weather-main.png) no-repeat;
+    background: url(../images/icons/weather-main.png) no-repeat;
     margin-top: 10px;
 }
 .weather-highlighted .inner{
@@ -1569,7 +1577,7 @@ a.dropdown-toggle:after{
 
 /* Location Search */
 .weather-location{
-    padding: 14px 17px 16px 21px;
+    padding: 40px 0px 20px 21px;
     border-top: 1px solid #f2fbfb;
     border-bottom: 1px solid #f2fbfb;
     border-top: 1px solid rgba(242,251,251,0.2);
@@ -1602,7 +1610,7 @@ input.weather-search-submit{
     position: absolute;
     top: 0;
     left: 0;
-    background:url(images/icons/search2.png) center center no-repeat;
+    background:url(../images/icons/search2.png) center center no-repeat;
 }
 .weather-location strong{
     font-size: 12px;
@@ -1646,7 +1654,7 @@ input.weather-search-submit{
     width: 24px;
     height: 24px;
     margin: 0;
-    background: url(images/icons/weather-icons.png) 0 0 no-repeat;
+    background: url(../images/icons/weather-icons.png) 0 0 no-repeat;
 }
 .weather-forecast .icon-weather-2{background-position: 0 -24px;}
 .weather-forecast .icon-weather-3{background-position: 0 -48px;}
@@ -1684,7 +1692,7 @@ input.weather-search-submit{
 }
 .carousel-control.left,
 .carousel-control.right{
-    background-image:url(images/icons/button-icons.png);
+    background-image:url(../images/icons/button-icons.png);
     background-position: -16px -60px;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -1788,3 +1796,145 @@ input.weather-search-submit{
 }
 .checkBoxes{float: right; width: 45%; padding-top: 8px;}
 .checkBoxes .custom-checkbox label, .checkBoxes .custom-radio label {padding-left: 27px;}
+
+/*-------------------------------------------*/
+/* change and position */
+/*-------------------------------------------*/
+#Weather{
+    width: 540px;
+    margin-top: -400px;
+    margin-left: -300px;
+}
+
+#Myself{
+    width: 340px;
+    margin-top: -350px;
+    margin-left: 290px;
+}
+
+#Menu{
+    width: 500px;
+    margin-top: -440px;
+    margin-left: 670px;
+}
+
+#chart1{
+    width: 510px;
+    margin-left: -40px;
+    margin-top: -100px;
+}
+
+#chart1 span{
+    width: 140px;
+    margin-left: 20px;
+}
+
+#chart2{
+    position: absolute;
+    width: 110px;
+    margin-left: 500px;
+    margin-top: -340px;
+}
+
+#chart2 .percent{
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    font-size: 35px;
+    color: #981B48;
+    font-weight: 600;
+}
+.percent{
+    display: inline-block;
+    line-height: 140px; 
+    color: #669CF5;
+    font-size: 35px;
+}
+
+#chart2 .percent:after {
+    content: '%';
+}
+
+.chart {
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#chart1 canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.chart2 canvas {
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.chart3 canvas {
+    position: absolute;
+    top: 130px;
+    left: 0;
+}
+.chart4 canvas {
+    position: absolute;
+    top: 260px;
+    left: 0;
+}
+
+#Fusce {
+    width: 540px;
+    margin-top: 100px;
+}
+
+#Fusce  h5 {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: #56462a;
+    margin-bottom: 6px;
+}
+
+#Fusce .subtitle {
+    font-size: 12px;
+    font-weight: 400;
+    color: #836d48;
+    margin-bottom: 10px;
+}
+
+#Fusce .myblog {
+    font-size: 14px;
+    font-weight: 400;
+    color: #766C5B;
+    margin-bottom: 10px;
+}
+
+#contant {
+    position: absolute;
+    width: 480px;
+    margin-left: 594px;
+    margin-top: -320px;
+}
+
+#contant .grid-box{
+    padding: 5px;
+}
+
+#topmenu {
+    position: absolute;
+    width: 1080px;
+    margin-left: 594px;
+    margin-top: 100px;
+}
+
+#photo {
+    width: 570px;
+    margin-top: 85px;
+}
+
+#photo .test{
+    height: 290px;
+}
